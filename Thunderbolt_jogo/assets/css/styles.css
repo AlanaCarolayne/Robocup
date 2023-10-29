@@ -1,0 +1,91 @@
+:root {
+    --bg-color: #4b7cb9;
+    --sombra: #8f8f8f;
+    --preto: #0e0808;
+    --branco: #f7f7f7;
+    --fonte-destaque: 'Orbitron',
+        sans-serif;
+    --fonte-principal: 'Montserrat',
+        sans-serif;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    height: auto;
+    background-color: #e8edf1;
+    width: 100%;
+    color: var(--preto);
+
+}
+
+#cnv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px var(--preto);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-image: url(../images/fundo2.svg);
+    background-repeat: no-repeat;
+    background-position: initial;
+    background-size: cover;
+}
+
+.azul {
+    background-color: var(--bg-color);
+}
+
+.fonte-branca {
+    color: var(--branco);
+}
+
+.robo-icon {
+    width: 5rem;
+    height: auto;
+    border: 1px solid rgba(220, 223, 226, 0.548);
+    background-color: rgba(201, 200, 200, 0.26);
+    border-radius: 100%;
+}
+
+.fonte-destaque {
+    font-family: var(--fonte-destaque);
+    letter-spacing: 1.5px;
+}
+
+.button {
+    font-family: var(--fonte-destaque);
+    clip-path: polygon(100% 0,
+            100% calc(100% - 30px),
+            calc(100% - 30px) 100%,
+            0 100%,
+            0 0);
+}
+
+.modal-vencedor {
+    background-color: #9bbad9;
+    color: var(--preto);
+
+}
+
+.robo-vencedor {
+    background-image: url(../images/bg-vencedor1.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.vencedor-nome {
+    font-family: var(--fonte-destaque);
+    font-size: 4.5rem;
+    font-weight: 600;
+    text-shadow: var(--sombra) -0.1em 0em 0em;
+    letter-spacing: 5px;
+}
+
+.footer {
+    background-color: var(--sombra);
+}
