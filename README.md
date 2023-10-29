@@ -7,4 +7,4 @@
 ### 🤖 O jogo consiste em dois robôs que ao colidirem tem suas vidas diminuidas, vence aquele com a maior vida após 5 colisões.
 ### 🤖 Para fazer o jogo, foram aplicados canvas, trabalhar com criação de objetos, funções, arrays, realizar movimentos usando teclados, entre outras funcionalidades fornecidas pela linguagem.
 
-#### 🤖 Jogue você também: 
+#### 🤖 Jogue você também: robocup-chi.vercel.app
